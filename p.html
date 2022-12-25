@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .main{
+            width: 150px;
+        }
+        button{
+            padding: 10px;
+            background-color: blue;
+            color: white;
+            border: none;
+            border-radius: 10px;
+            font-weight: bold;
+            font-size: 20px;
+            font-family: 'Times New Roman', Times, serif;
+            cursor: pointer;
+        }
+        li{
+            list-style-type: none;
+            padding: 5px;
+            border-top: 1px solid gainsboro;
+            font-size: 18px;
+        }
+        .sec{
+            display: none;
+            border: 1px solid gainsboro;
+            padding: 10px;
+            width: 100px;
+            margin-top: 5px;
+        }
+        .main:hover .sec{
+            display: block;
+        }
+        li:hover{
+            background-color: #ddd;
+            cursor: pointer;
+        }
+    </style>
+</head>
+<body>
+    <div class="main">
+        <button>
+            click here
+        </button>
+        <div class="sec">
+            <li>first</li>
+            <li>second</li>
+            <li>third</li>
+            <li>forth</li>
+         </div>
+    </div>
+  
+</body>
+</html>
